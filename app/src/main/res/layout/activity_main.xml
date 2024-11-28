@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btnCheckIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Registrar Entrada" />
+
+
+    <Button
+        android:id="@+id/btnCheckOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCheckIn"
+        android:layout_marginTop="78dp"
+        android:text="Registrar Saída" />
+
+    <Button
+        android:id="@+id/btnReports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCheckOut"
+        android:layout_marginTop="84dp"
+        android:text="Ver Relatórios" />
+
+
+</RelativeLayout>
